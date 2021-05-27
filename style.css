@@ -7,7 +7,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: "Castoro", serif;
+  font-family: "Aleo", serif;
 }
 .general-container {
   display: grid;
@@ -39,7 +39,6 @@ nav {
   justify-content: center;
   height: 60px;
   background-image: linear-gradient(to left, #30bced, rgba(0, 0, 143, 0.3));
-  font-family: "Castoro", serif;
 }
 .fill {
   width: 630px;
@@ -62,7 +61,6 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 .list-buttons {
@@ -136,8 +134,7 @@ a {
 
 .making-food-text {
   color: #30bced;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
   width: 60%;
 }
 .more-details-button {
