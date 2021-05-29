@@ -140,7 +140,6 @@ a {
   background-color: #30bced;
   color: white;
   padding: 10px 20px;
-  font-family: "Castoro", serif;
   border-radius: 5px;
   border: none;
 }
@@ -160,6 +159,8 @@ a {
 }
 .btn {
   margin-top: 40px;
+  background-color: #30bced;
+  color: white;
 }
 .detailer {
   display: flex;
@@ -225,11 +226,11 @@ a {
   color: grey;
 }
 
-.shrimpdish {
-  /* margin-right: 100px; */
+.carwash-image {
+  background-image: url(./carwash.jpeg);
+  background-position: center;
   height: 500px;
   width: 500px;
-  /* margin-bottom: 150px; */
 }
 
 .main3 {
