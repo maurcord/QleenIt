@@ -152,6 +152,14 @@ a {
   justify-content: space-between;
   justify-items: center;
 }
+.partners {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 250px 250px;
+  /* justify-items: center;
+  align-items: center;
+  justify-content: space-evenly; */
+}
 .how {
   display: flex;
   flex-direction: row;
