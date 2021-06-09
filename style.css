@@ -27,6 +27,21 @@ body {
     "footer";
   margin: 0;
 }
+.general-container2 {
+  display: grid;
+  grid-template-rows:
+    60px
+    600px
+    600px
+    80px;
+  grid-template-columns: none;
+  grid-template-areas:
+    "nav"
+    "main"
+    "main2"
+    "footer";
+  margin: 0;
+}
 nav {
   grid-area: nav;
 }
@@ -154,8 +169,8 @@ a {
 }
 .partners {
   display: grid;
-  grid-template-columns: 500px 500px;
-  grid-template-rows: 250px 250px;
+  grid-template-columns: 50% 50%;
+  /* grid-template-rows: 250px 250px; */
   /* justify-items: center;
   align-items: center;
   justify-content: space-evenly; */
